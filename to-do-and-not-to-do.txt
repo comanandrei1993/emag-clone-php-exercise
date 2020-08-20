@@ -1,2 +1,0 @@
-Find a way to import function files in EVERY file where it is needed instead of importing them in the header.php file.
-DO NOT IMPORT FUNCTION FILES IN header.php!!!
