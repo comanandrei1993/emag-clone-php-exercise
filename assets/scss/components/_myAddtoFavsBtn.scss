@@ -1,0 +1,28 @@
+.myAddtoFavsBtn,
+.removeFromUserFavorites {
+  color: $emagLinkColor;
+  cursor: pointer;
+
+  &__iconSide {
+    border-left: 1px solid $emagLinkColor;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  &__textSide {
+    border-right: 1px solid $emagLinkColor;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  &__iconSide,
+  &__textSide {
+    border-top: 1px solid $emagLinkColor;
+    border-bottom: 1px solid $emagLinkColor;
+  }
+
+  &:hover,
+  &:active {
+    color: $emagLinkColorHover;
+  }
+}

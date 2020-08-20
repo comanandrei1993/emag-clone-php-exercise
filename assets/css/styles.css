@@ -1,0 +1,396 @@
+/* ------ Mixins ------ */
+/* ------ Vendor Prefixes ------ */
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f2e7e6;
+}
+
+/* ------------------------------- */
+/* ---------- FONT SIZES --------- */
+/* ------------------------------- */
+.font-size-12 {
+  font-size: 12px !important;
+}
+
+.font-size-14 {
+  font-size: 14px !important;
+}
+
+.myFont-size-16 {
+  font-size: 16px;
+}
+
+.myFont-size-18 {
+  font-size: 18px;
+}
+
+.myFont-size-24 {
+  font-size: 24px;
+}
+
+/* ------------------------------------ */
+/* ---------- Sub/Superscript --------- */
+/* ------------------------------------ */
+/* ------------------------------- */
+/* ------------ COLORS ----------- */
+/* ------------------------------- */
+/* ------ Background Colors ------ */
+.bg-orange {
+  background-color: #FF5500;
+}
+
+.bg-orange-2 {
+  background-color: #f18e01;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.navbar-gradient {
+  background: linear-gradient(to right, #FF1D25, #0082E6);
+}
+
+/* ------ Font Colors ------ */
+.forceColorBlack {
+  color: #000000 !important;
+}
+
+.forceColorWhite {
+  color: #ffffff !important;
+}
+
+.emagLinkColor {
+  color: #005EB8;
+}
+
+.green-text {
+  color: #009900;
+}
+
+.grey-text {
+  color: #6e6e6e !important;
+}
+
+.magenta-text {
+  color: #8B008B;
+}
+
+.red-text {
+  color: #EF2809;
+}
+
+.white-text {
+  color: #ffffff !important;
+}
+
+/* ------ Hover Colors ------ */
+.hover-blue:hover, .hover-blue:active {
+  color: #007bff !important;
+}
+
+.myHover-white:hover, .myHover-white:active {
+  color: #ffffff !important;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------------- */
+/* ------------- BOOTSTRAP Modifications ------------ */
+/* -------------------------------------------------- */
+/* ------------- Outlet Carousel ------------ */
+#outletProducts .carousel-control-prev,
+#outletProducts .carousel-control-next {
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#outletProducts .carousel-control-prev {
+  left: -5%;
+}
+#outletProducts .carousel-control-next {
+  right: 0%;
+}
+#outletProducts .carousel-control-prev-icon,
+#outletProducts .carousel-control-next-icon {
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+#outletProducts .carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: #6e6e6e;
+}
+#outletProducts .carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: #6e6e6e;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------------------- */
+/* ---------- FLEX UTILITIES -------- */
+/* ---------------------------------- */
+.myJustify-self-end {
+  justify-self: end;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------- */
+/* ------------- MISC ------------ */
+/* ------------------------------- */
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.myAppStoreBtn:hover, .myAppStoreBtn:active {
+  text-decoration: none;
+}
+.myAppStoreBtn img {
+  max-width: 125px;
+}
+
+.myFeaturesImg {
+  height: 50px;
+}
+
+.myMb-0-fix {
+  margin-bottom: 0 !important;
+}
+
+.myPt-12-fix {
+  padding-top: 12px;
+}
+
+.myPt-10-fix {
+  padding-top: 10px;
+}
+
+.myPt-8-fix {
+  padding-top: 8px;
+}
+
+.store-button {
+  width: 127px;
+  height: 38px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------- */
+/* ---------- POSITIONING -------- */
+/* ------------------------------- */
+.force-display-block {
+  display: block !important;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.emag-genius {
+  margin: 0 auto;
+  width: 5rem;
+  height: 1.5rem;
+  padding-bottom: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #ffffff;
+  background: linear-gradient(to top right, #090171, #FF005A);
+  border-radius: 5rem;
+  text-align: center;
+}
+
+.myAddtoFavsBtn,
+.removeFromUserFavorites {
+  color: #005EB8;
+  cursor: pointer;
+}
+.myAddtoFavsBtn__iconSide,
+.removeFromUserFavorites__iconSide {
+  border-left: 1px solid #005EB8;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.myAddtoFavsBtn__textSide,
+.removeFromUserFavorites__textSide {
+  border-right: 1px solid #005EB8;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.myAddtoFavsBtn__iconSide, .myAddtoFavsBtn__textSide,
+.removeFromUserFavorites__iconSide,
+.removeFromUserFavorites__textSide {
+  border-top: 1px solid #005EB8;
+  border-bottom: 1px solid #005EB8;
+}
+.myAddtoFavsBtn:hover, .myAddtoFavsBtn:active,
+.removeFromUserFavorites:hover,
+.removeFromUserFavorites:active {
+  color: #003787;
+}
+
+.myAddToCartBtn {
+  cursor: pointer;
+}
+.myAddToCartBtn__iconSide {
+  background-color: #E43743 !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.myAddToCartBtn__textSide {
+  background: linear-gradient(to right, #4a60c1, #3985e0);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.myAddToCartBtn__iconSide, .myAddToCartBtn__textSide {
+  padding: 5px;
+  color: #ffffff !important;
+}
+
+.myBrandLogo {
+  min-width: 65px;
+  max-width: 135px;
+  min-height: 30px;
+  max-height: 45px;
+}
+
+.myEmagMarket__btn {
+  font-size: 14px;
+  font-weight: 700;
+  border: 2px solid #EF2809 !important;
+  border-radius: 50px;
+}
+.myEmagMarket__btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #ffffff !important;
+  color: #EF2809;
+}
+
+.myFiltersCard {
+  background-color: #ffffff;
+}
+
+@media (max-width: 760px) {
+  .myFiltersCard {
+    width: 100%;
+    height: 100%;
+    position: fixed !important;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+  }
+}
+.myGeniusDealsBar {
+  background: linear-gradient(to right, #FF1D25, #0082E6);
+}
+.myGeniusDealsBar__otherMenu a:link, .myGeniusDealsBar__otherMenu a:visited {
+  padding: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+.myGeniusDealsBar__otherMenu a:hover, .myGeniusDealsBar__otherMenu a:active {
+  border: 1px solid #ffffff;
+}
+.myGeniusDealsBar__list {
+  margin-bottom: 0 !important;
+}
+.myGeniusDealsBar__list .dropdown-menu a:link,
+.myGeniusDealsBar__list .dropdown-menu a:visited {
+  color: #000000;
+}
+.myGeniusDealsBar__listItem {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 575px) {
+  .myGeniusDealsBar {
+    height: 2px;
+  }
+}
+.myNotificationBadge {
+  padding: 1px 3px !important;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 12px !important;
+  background-color: #005EB8;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.myProdCard {
+  padding: 2px 5px;
+  position: relative;
+  background-color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 3px;
+}
+.myProdCard__discPercentage {
+  background-color: #FF5500;
+  position: absolute;
+  top: 0;
+  left: 19%;
+  color: #ffffff;
+}
+.myProdCard__img {
+  margin: 0 auto !important;
+  max-width: 90px;
+  display: block;
+}
+.myProdCard__prodName {
+  font-weight: 800;
+}
+.myProdCard__revStars {
+  padding: 0;
+}
+.myProdCard__revStars > .fas {
+  font-size: 12px;
+}
+.myProdCard__revScore {
+  padding: 0;
+}
+.myProdCard__nrOfReviewers {
+  padding: 0;
+}
+.myProdCard__newPrice {
+  color: #EF2809;
+  font-size: 18px;
+  font-weight: 700;
+}
+.myProdCard__addToCart-btn {
+  width: 80%;
+  font-size: 12px;
+  color: #005EB8;
+  border: 1px solid #005EB8;
+}
+.myProdCard__addToCart-btn:hover, .myProdCard__addToCart-btn:active {
+  border: 1px solid #206bc6;
+  color: #206bc6;
+}
+
+.myProductDropdown::after {
+  display: none !important;
+}
+
+/*# sourceMappingURL=styles.css.map */

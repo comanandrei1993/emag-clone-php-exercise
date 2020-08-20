@@ -1,0 +1,21 @@
+.myAddToCartBtn {
+  cursor: pointer;
+
+  &__iconSide {
+    background-color: $addToCartRed !important;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  &__textSide {
+    background: linear-gradient(to right, $addToCartBlue1, $addToCartBlue2);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  &__iconSide,
+  &__textSide {
+    padding: 5px;
+    color: $whiteColor1 !important;
+  }
+}

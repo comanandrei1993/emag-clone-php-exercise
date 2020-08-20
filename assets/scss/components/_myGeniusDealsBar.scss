@@ -1,0 +1,38 @@
+.myGeniusDealsBar {
+  background: linear-gradient(to right, $mainNavColor1, $mainNavColor2);
+
+  &__otherMenu {
+    & a:link,
+    & a:visited {
+      padding: 0 10px;
+      color: $whiteColor1;
+      text-decoration: none;
+      border: 1px solid transparent;
+      border-radius: 50px;
+    }
+
+    & a:hover,
+    & a:active {
+      border: 1px solid $whiteColor1;
+    }
+  }
+
+  &__list {
+    margin-bottom: 0 !important;
+
+    .dropdown-menu a:link,
+    .dropdown-menu a:visited {
+      color: $blackColor1;
+    }
+  }
+
+  &__listItem {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .myGeniusDealsBar {
+    height: 2px;
+  }
+}

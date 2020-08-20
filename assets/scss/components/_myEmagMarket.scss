@@ -1,0 +1,14 @@
+.myEmagMarket {
+  &__btn {
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid $redText1 !important;
+    border-radius: 50px;
+  }
+
+  &__btn:hover {
+    background-color: $whiteColor1;
+    border: 2px solid $whiteColor1 !important;
+    color: $redText1;
+  }
+}

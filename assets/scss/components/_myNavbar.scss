@@ -1,0 +1,16 @@
+.myNavbar {
+  padding: 6px 0;
+  background-color: transparent !important;
+  color: $whiteColor1 !important;
+
+  &__link {
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 50px;
+  }
+
+  &__link:hover,
+  &__link:active {
+    border: 1px solid $whiteColor1;
+  }
+}

@@ -1,0 +1,71 @@
+.myProdCard {
+  padding: 2px 5px;
+  position: relative;
+  background-color: $whiteColor1;
+  font-size: 14px;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 3px;
+
+  &__discPercentage {
+    background-color: $orangeColor1;
+    position: absolute;
+    top: 0;
+    left: 19%;
+    color: $whiteColor1;
+  }
+
+  &__addToFav {
+
+  }
+
+  &__img {
+    margin: 0 auto !important;
+    max-width: 90px;
+    display: block;
+  }
+
+  &__prodName {
+    font-weight: 800;
+  }
+
+  &__revStars {
+    padding: 0;
+
+    & > .fas {
+      font-size: 12px;
+    }
+  }
+
+  &__revScore {
+    padding: 0;
+  }
+
+  &__nrOfReviewers {
+    padding: 0;
+  }
+
+  &__oldPrice {
+
+  }
+
+  &__newPrice {
+    color: $redText1;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__addToCart-btn {
+    width: 80%;
+    font-size: 12px;
+    color: $emagLinkColor;
+    border: 1px solid $emagLinkColor;
+
+    &:hover,
+    &:active {
+      border: 1px solid $addToCartBlueHover2;
+      color: $addToCartBlueHover2;
+    }
+  }
+}
